@@ -20,59 +20,76 @@
 \?floor                            1
 \?empty                            0
 \?floor_hard                       X
-\?entrance                         !
-\?exit                             "
+\?entrance                         "
+\?exit                             .
+\?arrow_trap                       !
+\?minewood_floor                   #
+\?push_block                       $
+\?spider_hanging                   %
+\?spider_falling                   &
+\?spider                           '
+\?snake                            (
+\?cooked_turkey                    )
+\?lava                             *
+\?imp                              +
+\?bat                              ,
+\?frog                             -
+\?bone_block                       2
+\?skull_drop_trap                  3
+\?pipe                             4
+\?falling_platform                 5
+\?floor%50%lava                    6
 
 
 
 ////////////////////////////////////////////////////////////////////////////////
-\.setroom0_0   // cave
+\.setroom0_0   // volcano
 ////////////////////////////////////////////////////////////////////////////////
 
 XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
-XX11111111
-XX11111111
-XX11111111
-XX11100111
+X111111111
+X11111+000
+X111110000
+X110000000
 
 ////////////////////////////////////////////////////////////////////////////////
-\.setroom0_1   // cave
+\.setroom0_1   // volcano
 ////////////////////////////////////////////////////////////////////////////////
 
 XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
-11111111XX
-11111111XX
-11111111XX
-11100111XX
+111111111X
+000011111X
+000+11111X
+000000011X
 
 ////////////////////////////////////////////////////////////////////////////////
-\.setroom1_0   // cave
+\.setroom1_0   // volcano
 ////////////////////////////////////////////////////////////////////////////////
 
-XX11000000
-XX110!0000
-XX11111111
-XX11111111
-XXXXXXXXXX
+X100000050
+X10"000000
+X11111****
+X1111166**
+X111111111
 XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
 
 ////////////////////////////////////////////////////////////////////////////////
-\.setroom1_1   // cave
+\.setroom1_1   // volcano
 ////////////////////////////////////////////////////////////////////////////////
 
-00000011XX
-0000"011XX
-11111111XX
-11111111XX
-XXXXXXXXXX
+050000001X
+000000.01X
+****11111X
+**6611111X
+111111111X
 XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
