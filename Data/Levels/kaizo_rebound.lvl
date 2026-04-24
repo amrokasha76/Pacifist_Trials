@@ -1,0 +1,111 @@
+\-altar_room_chance                      0
+\-back_room_chance                       0
+\-back_room_hidden_door_cache_chance     0
+\-back_room_hidden_door_chance           0
+\-back_room_interconnection_chance       0
+\-background_chance                      0
+\-flagged_liquid_rooms                   0
+\-floor_bottom_spread_chance             0
+\-floor_side_spread_chance               0
+\-ground_background_chance               0
+\-idol_room_chance                       0
+\-machine_bigroom_chance                 0
+\-machine_rewardroom_chance              0
+\-machine_tallroom_chance                0
+\-machine_wideroom_chance                0
+\-max_liquid_particles                   0
+\-mount_chance                           0
+\-size                                   2 2
+
+\?floor                            1
+\?empty                            0
+\?floor_hard                       X
+\?entrance                         !
+\?platform                         "
+\?spikes                           #
+\?minewood_floor                   $
+\?lizard                           %
+\?ladder_plat                      &
+\?ladder                           '
+\?thorn_vine                       (
+\?bone_block                       )
+\?push_block                       *
+\?forcefield                       +
+\?mole                             ,
+\?lamp_hang                        -
+\?conveyorbelt_left                .
+\?telescope_right                  2
+\?spring_trap                      3
+\?pillar_grow                      4
+\?litwalltorch                     5
+\?powder_keg                       6
+\?key                              8
+\?locked_door                      9
+\?conveyorbelt_right               :
+\?door2                            ;
+\?exit                             <
+\?arrow_trap                       7
+\?snake                            =
+\?turkey                           >
+\?caveman                          ?
+\?totem_trap                       @
+\?lava                             A
+\?surface_floor                    B
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_0   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+BBBBBBBBBB 1111111111
+BBBBBBBBBB 1111111111
+B$$B$$BBBB 1111111111
+B$$,$$BBBB 1111111111
+B$$)$$BBBB 1111111111
+B$$!000000 1111111111
+B$$""""""" 1111111111
+B$$0000000 1111111111
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_1   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+BBBBBBBBBB 1111111111
+BBBBBBBBBB 1111111111
+BBBBBBBBBB 1111111111
+BBBBBBBBBB 1111111111
+BB$B$BBBBB 1111111111
+00$$$BBBBB 1111111111
+"0$$$BBBBB 1111111111
+000$$BBBBB 1111111111
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_0   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+B$$0000000 1111111111
+B$$0000000 1111111111
+B$$0000000 1111111111
+B$$BB$*$00 1111111111
+BBBBB$$$AA 1111111111
+BBBBB$B$AA 1111111111
+BBBBBBBBBB 1111111111
+BBBBBBBBBB 1111111111
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_1   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+00@$$BBBBB 1111111111
+00$$$000BB 1111111111
+006**000BB 1111111111
+00$$$0<0BB 1111111111
+AA$$BBBBBB 1111111111
+AA$BBBBBBB 1111111111
+BBBBBBBBBB 1111111111
+BBBBBBBBBB 1111111111

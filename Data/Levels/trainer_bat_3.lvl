@@ -1,0 +1,85 @@
+\-altar_room_chance                      0
+\-back_room_chance                       0
+\-back_room_hidden_door_cache_chance     0
+\-back_room_hidden_door_chance           0
+\-back_room_interconnection_chance       0
+\-background_chance                      0
+\-flagged_liquid_rooms                   0
+\-floor_bottom_spread_chance             0
+\-floor_side_spread_chance               0
+\-ground_background_chance               0
+\-idol_room_chance                       0
+\-machine_bigroom_chance                 0
+\-machine_rewardroom_chance              0
+\-machine_tallroom_chance                0
+\-machine_wideroom_chance                0
+\-max_liquid_particles                   0
+\-mount_chance                           0
+\-size                                   2 2
+
+\?floor                            1
+\?empty                            0
+\?floor_hard                       X
+\?entrance                         !
+\?exit                             "
+\?door2                            #
+\?bat                              $
+\?litwalltorch                     %
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_0   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+XXXXXXXXXX XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX
+XX11111111 XXXXXXXXXX
+XX11111111 XXXXXXXXXX
+XX11111111 XXXXXXX111
+XX11111111 XXXXXXX100
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_1   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+XXXXXXXXXX XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX
+11111111XX XXXXXXXXXX
+11111111XX XXXXXXXXXX
+11111111XX 11XXXXXXXX
+11000111XX 01XXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_0   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+XX11111111 XXXXXXX10%
+XX110!000# XXXXXXX10#
+XX11111111 XXXXXXX111
+XX11111111 XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_1   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+1$000011XX 01XXXXXXXX
+0000"011XX 01XXXXXXXX
+11111111XX 11XXXXXXXX
+11111111XX XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX

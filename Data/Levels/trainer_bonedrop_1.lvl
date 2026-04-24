@@ -1,0 +1,93 @@
+\-altar_room_chance                      0
+\-back_room_chance                       0
+\-back_room_hidden_door_cache_chance     0
+\-back_room_hidden_door_chance           0
+\-back_room_interconnection_chance       0
+\-background_chance                      0
+\-flagged_liquid_rooms                   0
+\-floor_bottom_spread_chance             0
+\-floor_side_spread_chance               0
+\-ground_background_chance               0
+\-idol_room_chance                       0
+\-machine_bigroom_chance                 0
+\-machine_rewardroom_chance              0
+\-machine_tallroom_chance                0
+\-machine_wideroom_chance                0
+\-max_liquid_particles                   0
+\-mount_chance                           0
+\-size                                   2 2
+
+\?empty                            0
+\?floor_hard                       X
+\?entrance                         "
+\?exit                             .
+\?arrow_trap                       !
+\?minewood_floor                   #
+\?push_block                       $
+\?spider_hanging                   %
+\?spider_falling                   &
+\?spider                           '
+\?snake                            (
+\?cooked_turkey                    )
+\?lava                             *
+\?imp                              +
+\?bat                              ,
+\?frog                             -
+\?bone_block                       2
+\?skull_drop_trap                  3
+\?pipe                             4
+\?floor                            5
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_0   // sunken
+////////////////////////////////////////////////////////////////////////////////
+
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XX55555555
+XX55555555
+XX55550003
+XX55500005
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_1   // sunken
+////////////////////////////////////////////////////////////////////////////////
+
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+55555555XX
+55555555XX
+00005555XX
+50000555XX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_0   // sunken
+////////////////////////////////////////////////////////////////////////////////
+
+XX55500055
+XX5550"055
+XX55555555
+XX55555555
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_1   // sunken
+////////////////////////////////////////////////////////////////////////////////
+
+55000555XX
+550.0555XX
+55555555XX
+55555555XX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
