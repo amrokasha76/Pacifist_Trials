@@ -17,77 +17,66 @@
 \-mount_chance                           0
 \-size                                   2 2
 
+\?floor                            1
 \?empty                            0
 \?floor_hard                       X
-\?entrance                         "
-\?exit                             .
-\?arrow_trap                       !
-\?minewood_floor                   #
-\?push_block                       $
-\?spider_hanging                   %
-\?spider_falling                   &
-\?spider                           '
-\?snake                            (
-\?cooked_turkey                    )
-\?lava                             *
-\?imp                              +
-\?bat                              ,
-\?frog                             -
-\?bone_block                       2
-\?skull_drop_trap                  3
-\?pipe                             4
-\?floor                            5
+\?entrance                         !
+\?exit                             "
+\?beehive_floor                    #
+\?bee                              $
+\?honey_upwards                    %
+\?honey_downwards                  &
 
 
 
 ////////////////////////////////////////////////////////////////////////////////
-\.setroom0_0   // sunken
+\.setroom0_0   // temple
 ////////////////////////////////////////////////////////////////////////////////
 
 XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
-XX55555555
-XX55555555
-XX55550003
-XX55500005
+X111111111
+X111######
+X11#####$&
+X1###0&#0$
 
 ////////////////////////////////////////////////////////////////////////////////
-\.setroom0_1   // sunken
+\.setroom0_1   // temple
 ////////////////////////////////////////////////////////////////////////////////
 
 XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
-55555555XX
-55555555XX
-00005555XX
-50000555XX
+111111111X
+######111X
+$&#####11X
+0$#0&###1X
 
 ////////////////////////////////////////////////////////////////////////////////
-\.setroom1_0   // sunken
+\.setroom1_0   // temple
 ////////////////////////////////////////////////////////////////////////////////
 
-XX55500055
-XX5550"055
-XX55555555
-XX55555555
-XXXXXXXXXX
-XXXXXXXXXX
+X1##000000
+X1##0!0000
+X1#####0##
+X1#####000
+X1########
+X111111111
 XXXXXXXXXX
 XXXXXXXXXX
 
 ////////////////////////////////////////////////////////////////////////////////
-\.setroom1_1   // sunken
+\.setroom1_1   // temple
 ////////////////////////////////////////////////////////////////////////////////
 
-55000555XX
-550.0555XX
-55555555XX
-55555555XX
-XXXXXXXXXX
-XXXXXXXXXX
+000000##1X
+000%"0##1X
+##0#####1X
+000#####1X
+########1X
+111111111X
 XXXXXXXXXX
 XXXXXXXXXX

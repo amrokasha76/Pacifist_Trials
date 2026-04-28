@@ -20,23 +20,13 @@
 \?floor                            1
 \?empty                            0
 \?floor_hard                       X
-\?entrance                         "
-\?exit                             .
-\?arrow_trap                       !
+\?entrance                         !
+\?exit                             "
 \?minewood_floor                   #
-\?push_block                       $
-\?spider_hanging                   %
-\?spider_falling                   &
-\?spider                           '
-\?snake                            (
-\?cooked_turkey                    )
-\?lava                             *
-\?imp                              +
-\?bat                              ,
-\?frog                             -
-\?bone_block                       2
-\?skull_drop_trap                  3
-\?pipe                             4
+\?spikes                           $
+\?platform                         %
+\?bat                              &
+\?bone_block                       '
 
 
 
@@ -48,10 +38,10 @@ XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
-XX11111111
-XX11111111
-XX11111111
-XX11000000
+X111111111
+X111111111
+X111000000
+X10000#%%%
 
 ////////////////////////////////////////////////////////////////////////////////
 \.setroom0_1   // cave
@@ -61,19 +51,19 @@ XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
-11111111XX
-11111111XX
-11111111XX
-00000011XX
+111111111X
+111111111X
+00&000111X
+%%%#00001X
 
 ////////////////////////////////////////////////////////////////////////////////
 \.setroom1_0   // cave
 ////////////////////////////////////////////////////////////////////////////////
 
-XX1100000(
-XX110"0001
-XX11111111
-XX11111111
+X1000##000
+X10!0#0$$$
+X111##111'
+X111111111
 XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX
@@ -83,10 +73,10 @@ XXXXXXXXXX
 \.setroom1_1   // cave
 ////////////////////////////////////////////////////////////////////////////////
 
-00000011XX
-1000.011XX
-11111111XX
-11111111XX
+000##0001X
+$$$0#0"01X
+'111##111X
+111111111X
 XXXXXXXXXX
 XXXXXXXXXX
 XXXXXXXXXX

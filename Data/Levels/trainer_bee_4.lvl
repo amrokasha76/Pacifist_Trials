@@ -20,74 +20,63 @@
 \?floor                            1
 \?empty                            0
 \?floor_hard                       X
-\?entrance                         "
-\?exit                             .
-\?arrow_trap                       !
-\?minewood_floor                   #
-\?push_block                       $
-\?spider_hanging                   %
-\?spider_falling                   &
-\?spider                           '
-\?snake                            (
-\?cooked_turkey                    )
-\?lava                             *
-\?imp                              +
-\?bat                              ,
-\?frog                             -
-\?bone_block                       2
-\?skull_drop_trap                  3
-\?pipe                             4
+\?entrance                         !
+\?exit                             "
+\?beehive_floor                    #
+\?bee                              $
+\?honey_upwards                    %
+\?honey_downwards                  &
 
 
 
 ////////////////////////////////////////////////////////////////////////////////
-\.setroom0_0   // cave
+\.setroom0_0   // temple
 ////////////////////////////////////////////////////////////////////////////////
 
 XXXXXXXXXX
 XXXXXXXXXX
-XXXXXXXXXX
-XXXXXXXXXX
-XX11111111
-XX11111111
-XX11111111
-XX11000000
+XX######XX
+XX#$0$0###
+X1####$0##
+X111###0$#
+X11#####00
+X1###00#00
 
 ////////////////////////////////////////////////////////////////////////////////
-\.setroom0_1   // cave
+\.setroom0_1   // temple
 ////////////////////////////////////////////////////////////////////////////////
 
-XXXXXXXXXX
-XXXXXXXXXX
-XXXXXXXXXX
-XXXXXXXXXX
-11111111XX
-11111111XX
-11111111XX
-00000011XX
+XXX#####XX
+XXX#000#XX
+XX##000#XX
+###00"0#XX
+##00####1X
+#00###111X
+&0#####11X
+00#$0###1X
 
 ////////////////////////////////////////////////////////////////////////////////
-\.setroom1_0   // cave
+\.setroom1_0   // temple
 ////////////////////////////////////////////////////////////////////////////////
 
-XX1100000(
-XX110"0001
-XX11111111
-XX11111111
-XXXXXXXXXX
-XXXXXXXXXX
+X1#&000##0
+X1#$0!0000
+X1#####0##
+X1#####0$%
+X1########
+X111111111
 XXXXXXXXXX
 XXXXXXXXXX
 
 ////////////////////////////////////////////////////////////////////////////////
-\.setroom1_1   // cave
+\.setroom1_1   // temple
 ////////////////////////////////////////////////////////////////////////////////
 
-00000011XX
-1000.011XX
-11111111XX
-11111111XX
-XXXXXXXXXX
-XXXXXXXXXX
+0##00&0#1X
+00$0%$0#1X
+##0#####1X
+0$0#####1X
+########1X
+111111111X
 XXXXXXXXXX
 XXXXXXXXXX
